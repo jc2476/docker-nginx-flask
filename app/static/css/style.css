@@ -1,3 +1,25 @@
 body {
-    font-family: Helvetica, "Helvetica Neue", sans-serif;
+        background-color: black;
+}
+.text {
+    font-family: Cambria, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    }
+
+.border {
+    background-color: #383832;
+    border: 3px solid yellowgreen;
+    border-radius: 15px 50px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    alignment: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.firstletter {
+    font-weight: bold;
+    font-size: 22px;
 }
