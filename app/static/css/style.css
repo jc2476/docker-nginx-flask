@@ -4,7 +4,7 @@ body {
 .text {
     font-family: Cambria, Helvetica, sans-serif;
     color: white;
-    font-size: 12px;
+    font-size: 18px;
     }
 
 .border {
@@ -21,5 +21,5 @@ body {
 }
 .firstletter {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 36px;
 }
