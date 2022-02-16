@@ -16,33 +16,40 @@ body {
     0 16px 32px rgba(255, 255, 255, 0.3),
     0 32px 64px rgba(255, 255, 255, 0.3);
 }
-
-.headerborder {
-    background-color: #383832;
-    border: 3px solid yellowgreen;
-    border-radius: 30px 30px;
-    padding: 20px;
-    width: auto;
-    height: auto;
-    alignment: center;
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #28313b;
+  color: white;
+  font-size: 30px;
 }
 
 .border {
-    background-color: #383832;
-    border: 3px solid yellowgreen;
+background: rgba(81, 79, 92, 1.0);
+background: -webkit-linear-gradient(top left, rgba(81, 79, 92, 1.0), rgba(1, 1, 1, 1.0));
+background: -moz-linear-gradient(top left, rgba(81, 79, 92, 1.0), rgba(1, 1, 1, 1.0));
+background: linear-gradient(to bottom right, rgba(81, 79, 92, 1.0), rgba(1, 1, 1, 1.0));
+    border: 3px solid gray;
     border-radius: 150px 150px;
-    padding: 30px;
+    padding: 25px;
     width: auto;
     height: auto;
     alignment: center;
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
+
 }
 .firstletter {
     font-weight: bold;
     font-size: 36px;
 }
+.container {
+            width:800px;
+            height:190px;
+            alignment: center;
+            padding-top:20px;
+            padding-left:15px;
+            padding-right:15px;
+    margin: auto;
+        }
