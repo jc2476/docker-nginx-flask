@@ -1,23 +1,46 @@
 body {
-        background-color: black;
+     background-color: #485461;
+     background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
+
 .text {
     font-family: Cambria, Helvetica, sans-serif;
     color: white;
     font-size: 18px;
     }
 
-.border {
+.blog-shadow-dreamy {
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3),
+    0 2px 4px rgba(255, 255, 255, 0.3),
+    0 4px 8px rgba(255, 255, 255, 0.3),
+    0 16px 32px rgba(255, 255, 255, 0.3),
+    0 32px 64px rgba(255, 255, 255, 0.3);
+}
+
+.headerborder {
     background-color: #383832;
     border: 3px solid yellowgreen;
-    border-radius: 15px 50px;
+    border-radius: 30px 30px;
     padding: 20px;
     width: auto;
     height: auto;
     alignment: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.border {
+    background-color: #383832;
+    border: 3px solid yellowgreen;
+    border-radius: 150px 150px;
+    padding: 30px;
+    width: auto;
+    height: auto;
+    alignment: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .firstletter {
     font-weight: bold;
