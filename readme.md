@@ -1,5 +1,5 @@
 
 ## Screenshot of Running Program
 
-![image](screenshots/home.png)
-![image](screenshots/about.PNG)
+![Running Program](screenshots/home.png)
+![Running Program](screenshots/about.png)
